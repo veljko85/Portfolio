@@ -1,0 +1,129 @@
+*	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	/* border: 1px solid black;  */
+}
+body	{
+	width: 100vw;
+	height: 100vw;
+}
+
+.home	{			/*--------- Main wrap */
+	width: 100vw;
+	height: 100vh;
+	background-color: red;
+}
+.header		{
+	width: 100vw;
+	background-color: black;
+	height: 8vh;
+}
+#title	{
+	color: white;
+	float: left;
+	font-size: 3vh;
+	margin: 2vh 2vw;
+	font-family: 'Kaushan Script', cursive;
+}
+
+/* Hamburger button */
+
+.hamburger	{
+	width: 12%;
+	height: 80%;
+	float: right;
+	right: 7%;
+	top: 10%;
+	position: relative;
+	
+
+}
+.prva, .druga, .treca	{
+	width: 100%;
+	height: 20%;
+	background-color: white;
+	transition: transform .5s, top .5s;
+	position: absolute;
+}
+.prva	{
+	top: 10%;
+}
+.druga	{
+	top: 40%;
+}
+.treca	{
+	top: 70%;
+}
+.ukrstanje	{
+	top: 40%;
+	transform: rotate(45deg);
+}
+.ukrstanje-suprotno	{
+	top: 40%;
+	transform: rotate(-45deg);
+}
+
+/* Navvigation */
+
+.box    {
+	width: 50vw;
+	height: 5vh;
+	margin-top: 1vh;
+	display: none;
+	font-family: 'Roboto Mono', monospace;
+}
+.main-box	{
+	background-color: black;
+	float: left;
+	color: white;
+	width: 40vw;
+	height: 5vh;
+	
+}
+.box h2	{
+	font-size: 3vh;
+	padding: 0.5vh 2vw;
+}
+.first	{
+	width: 50vw;
+}
+.second	{
+	width: 47vw;
+}
+
+.fade, .fader, .fadest	{
+	width: 1vw;
+	height: 5.3vh;
+	float: left;
+	margin-left: 0.5vw;
+}
+.fade  	{
+	background-color: white;
+	transform: rotate(25deg);
+	margin-left: -5%;
+	width: 10%;
+	height: 5.95vh;
+	
+}
+.fader	{
+	transform: rotate(25deg);
+	background-color: rgba(0,0,0,0.6);
+	margin-left: -9%;
+	
+}
+.fadest	{
+	transform: rotate(25deg);
+	background-color: rgba(0,0,0,0.3);
+	margin-left: -6%;
+}
+
+/* ABOUT ME */
+
+.about 	{
+	width: 100vw;
+	height: 100vh;
+	background-color: yellow;
+}
+
