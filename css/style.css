@@ -151,4 +151,7 @@ body	{
 	padding: 3vh;
 	display: none;
 }
-
+.main-info	{
+	font-size: 1.6vh;
+	text-align: justify;
+}
