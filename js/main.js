@@ -12,4 +12,7 @@ $(document).ready(function(){
 		$(".fourth").delay(600).toggle( "slide", 600 );
 	});
 	
+	$(".squere").hover(function() {
+			$(this).children().fadeToggle();
+		});
 });

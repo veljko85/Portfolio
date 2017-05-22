@@ -8,6 +8,8 @@
 body	{
 	width: 100vw;
 	height: 100vw;
+	overflow-x: hidden;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .home	{			/*--------- Main wrap */
@@ -72,7 +74,7 @@ body	{
 	height: 5vh;
 	margin-top: 1vh;
 	display: none;
-	font-family: 'Roboto Mono', monospace;
+	
 }
 .main-box	{
 	background-color: black;
@@ -95,7 +97,7 @@ body	{
 
 .fade, .fader, .fadest	{
 	width: 1vw;
-	height: 5.3vh;
+	height: 5vh;
 	float: left;
 	margin-left: 0.5vw;
 }
@@ -125,5 +127,28 @@ body	{
 	width: 100vw;
 	height: 100vh;
 	background-color: yellow;
+}
+.squere		{
+	width: 50vw;
+	height: 33.3vh;
+	float: left;
+}
+.one	{
+	background-image: url(../backgrounds/travel.jpg);
+	-webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.two	{
+	background-color: rgb(255,255,255);
+}
+.info	{
+	background-color: rgba(255,255,255,0.5);
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 3vh;
+	padding: 3vh;
+	display: none;
 }
 
