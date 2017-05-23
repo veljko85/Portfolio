@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
 <body>
-<section class="home">
+<section id="home">
 <nav>
 	<div class="header">
 		
@@ -24,18 +24,23 @@
 	</div>
 	
 	<ul class="navigation">
+
 		<li>
 			<div class="box first">
-				<div class="main-box">
-					<h2>about me<h2>
-				</div>
+				<a href="#about" data-scroll>
+					<div class="main-box">
+						<h2>about me<h2>
+					</div>
+				</a>
 				<div class="fade"></div>
 				<div class="fader"></div>
 				<div class="fadest"></div>
+
 			</div>
 		</li>
 		<li>
 			<div class="box second">
+			<div class="spaceBetween"></div>
 				<div class="main-box">
 					<h2>skills<h2>
 				</div>
@@ -64,11 +69,12 @@
 				<div class="fadest"></div>
 			</div>
 		</li>
+	
 	</ul>
 </nav>
 </section>
 
-<section class="about">
+<section id="about">
 	
 	<div class="squere one">
 		<div class="info">
@@ -77,6 +83,9 @@
 	</div>
 
 	<div class="squere two">
+		<div class="info">
+			
+		</div>
 		<div class="main-info">
 			<h3>I am Velibor Marković, self motivated, self taught Web designer and Web developer (if i can call myself that way yet). I can't spend a day without coding, learnig new things and developing my self in that direction. They say that if you find what you love to do and make a living from it, you are truly happy person. I'm on half way from it...</h3>
 		</div>
@@ -88,6 +97,7 @@
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/jquery.scroller.min.js"></script>
 <script src="js/main.js"></script> 
 
 </body>

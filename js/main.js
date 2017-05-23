@@ -15,4 +15,5 @@ $(document).ready(function(){
 	$(".squere").hover(function() {
 			$(this).children().fadeToggle();
 		});
+	$("a[data-scroll]").scroller();
 });

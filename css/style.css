@@ -12,7 +12,7 @@ body	{
 	font-family: 'Roboto Mono', monospace;
 }
 
-.home	{			/*--------- Main wrap */
+#home	{			/*--------- Main wrap */
 	width: 100vw;
 	height: 100vh;
 	
@@ -72,8 +72,8 @@ body	{
 .box    {
 	width: 50vw;
 	height: 5vh;
-	margin-top: 1vh;
 	display: none;
+	margin-top: 1vh;
 	
 }
 .main-box	{
@@ -86,20 +86,16 @@ body	{
 }
 .box h2	{
 	font-size: 3vh;
-	padding: 0.5vh 2vw;
+	padding: 0vh 2vw;
 }
-.first	{
-	width: 50vw;
-}
-.second	{
-	width: 47vw;
-}
+
 
 .fade, .fader, .fadest	{
 	width: 1vw;
 	height: 5vh;
 	float: left;
 	margin-left: 0.5vw;
+	
 }
 .fade  	{
 	background-color: white;
@@ -121,9 +117,10 @@ body	{
 	margin-left: -6%;
 }
 
+
 /* ABOUT ME */
 
-.about 	{
+#about 	{
 	width: 100vw;
 	height: 100vh;
 	background-color: yellow;
@@ -154,4 +151,7 @@ body	{
 .main-info	{
 	font-size: 1.6vh;
 	text-align: justify;
+}
+#scroller-top-button {
+
 }
