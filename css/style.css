@@ -10,6 +10,7 @@ body	{
 	height: 100vw;
 	overflow-x: hidden;
 	font-family: 'Roboto Mono', monospace;
+	
 }
 
 								/*--------- HOME wrap */
@@ -17,16 +18,18 @@ body	{
 #home	{			
 	width: 100vw;
 	height: 100vh;
-	background: -webkit-linear-gradient(left, top, #000, #000, #FFF);
-	background: linear-gradient(#000, #000, #999999, #FFF);
+	background-image: url(../backgrounds/keyboard2.jpg);
+	-webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 .header		{
 	width: 100vw;
-	background-color: #FFF;
+	background-color: #000;
 	height: 8vh;
 }
 #title	{
-	color: #000;
+	color: #FFF;
 	float: left;
 	font-size: 3vh;
 	margin: 2vh 2vw;
@@ -48,7 +51,7 @@ body	{
 .prva, .druga, .treca	{
 	width: 100%;
 	height: 20%;
-	background-color: #000;
+	background-color: #FFF;
 	transition: transform .5s, top .5s;
 	position: absolute;
 }
@@ -77,47 +80,37 @@ body	{
 	height: 5vh;
 	display: none;
 	margin-top: 1vh;
-	
+	margin-left: -3vw;
+
 }
 .main-box	{
-	background-color: #FFF;
+	background-color: #000;
 	float: left;
-	color: #000;
-	width: 40vw;
+	color: #FFF;
+	width: 43vw;
 	height: 5vh;
-	
+	transform: skewX(150deg);
+
 }
 .box h2	{
 	font-size: 3vh;
-	padding: 0vh 2vw;
+	padding: 0vh 5vw;
+	transform: skewX(210deg);
 }
-
-
-.fade, .fader, .fadest	{
+.fader, .fadest	{
 	width: 1vw;
 	height: 5vh;
 	float: left;
-	margin-left: 0.5vw;
-	
-}
-.fade  	{
-	background-color:  #000;
-	transform: rotate(25deg);
-	margin-left: -5%;
-	width: 10%;
-	height: 5.95vh;
-	
+	transform: skewX(150deg);
+
 }
 .fader	{
-	transform: rotate(25deg);
-	background-color: rgba(255,255,255,0.6);
-	margin-left: -9%;
-	
+	background-color: rgba(0,0,0,0.6);
+	margin-left: 1%;
 }
 .fadest	{
-	transform: rotate(25deg);
-	background-color: rgba(255,255,255,0.3);
-	margin-left: -6%;
+	background-color: rgba(0,0,0,0.3);
+	margin-left: 1.5%;
 }
 .text 	{
 	color: #000;
@@ -125,12 +118,12 @@ body	{
 	font-size: 10vw;
 }
 .hiring	{
-	top: 60vh;
+	top: 50vh;
 	left: 25vw;
 	display: none;
 }
 .question	{
-	top: 55vh;
+	top: 45vh;
 	left: 40vw;
 	font-size: 25vw;
 }
@@ -177,5 +170,5 @@ body	{
 	text-align: justify;
 }
 #scroller-top-button {
-
+	display: none;
 }

@@ -17,7 +17,7 @@ $(document).ready(function(){
 	});
 
 	$(".question").hover(function(){
-		$(this).animate({"font-size": "10vw", "left": "65vw", "top": "60vh"}, 700);
+		$(this).animate({"font-size": "10vw", "left": "65vw", "top": "50vh"}, 700);
 		$(".hiring").fadeIn(700);
 		$(".cont").delay(700).animate({"left": "15vw"}, 1000);
 		$(".me").delay(700).animate({"right": "20vw"}, 1000);
