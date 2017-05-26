@@ -10,9 +10,12 @@ body	{
 	height: 100vw;
 	overflow-x: hidden;
 	font-family: 'Roboto Mono', monospace;
-	
+	-ms-overflow-style: none;
 }
 
+body::-webkit-scrollbar    {
+	width: 0;
+}	
 								/*--------- HOME wrap */
 
 #home	{			
@@ -130,17 +133,19 @@ body	{
 .cont	{
 	top: 70vh;
 	left: -50vw;
+	display: none;
 }
 .me 	{
 	top: 70vh;
 	right: -15vW;
+	display: none;
 }
 										/*------ ABOUT ME */
 
 #about 	{
 	width: 100vw;
 	height: 100vh;
-	background-color: yellow;
+	
 }
 .squere		{
 	width: 50vw;
@@ -156,6 +161,21 @@ body	{
 .two	{
 	background-color: rgb(255,255,255);
 }
+.three	{
+	background-color: red;
+}
+.four	{
+	background-color: orange;
+}
+.five	{
+	background-image: url(../backgrounds/mypicture.jpg);
+	-webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.six	{
+	background-color: yellow;
+}
 .info	{
 	background-color: rgba(255,255,255,0.5);
 	height: 100%;
@@ -166,8 +186,8 @@ body	{
 	display: none;
 }
 .main-info	{
-	font-size: 1.6vh;
-	text-align: justify;
+	font-size: 1.8vh;
+	text-align: center;
 }
 #scroller-top-button {
 	display: none;
