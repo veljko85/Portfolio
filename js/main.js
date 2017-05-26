@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 	
 	$(".squere").hover(function() {
-		$(this).children().fadeToggle();
+		$(this).children(".info").fadeToggle();
 	});
 
 	$(".question").hover(function(){
