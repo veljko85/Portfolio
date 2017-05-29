@@ -93,12 +93,15 @@ body::-webkit-scrollbar    {
 	width: 43vw;
 	height: 5vh;
 	transform: skewX(150deg);
-
+	-ms-transform: skewX(150deg);
+	-webkit-transform: skewX(150deg);
 }
 .box h2	{
 	font-size: 3vh;
 	padding: 0vh 5vw;
 	transform: skewX(210deg);
+	-ms-transform: skewX(210deg);
+	-webkit-transform: skewX(210deg);
 }
 .fader, .fadest	{
 	width: 1vw;
@@ -203,8 +206,73 @@ body::-webkit-scrollbar    {
 #skills 	{
 	width: 100vw;
 	height: 100vh;
-	background-color: yellow;
-}									
+	text-align: center;
+	background-color: #fff;
+    background: -webkit-linear-gradient(#fff, #bfbfbf); 
+    background: -o-linear-gradient(#fff, #bfbfbf); 
+    background: -moz-linear-gradient(#fff, #bfbfbf); 
+    background: linear-gradient(#fff, #bfbfbf); 
+}
+#skills img {
+	height: 17vh;
+	padding-top: 2vh;
+}
+.sec  {
+	width: 50vw;
+	height: 25vh;
+	float: left;
+
+}
+.sec h3	{
+	font-size: 3vh;
+}
+.html h3	{
+	color: #ff3300;
+}
+.css h3, .jquery h3	{
+	color: #0066ff;
+}
+.js	h3	{
+	color: #cccc00;
+}
+.boot h3	{
+	color: #6600ff;
+}
+.sass h3 {
+	color: #ff66d9;
+}
+.ai h3	{
+	color: #ff9933;
+}
+.ps h3 {
+	color: #00134d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #scroller-top-button {
 	display: none;
 }
