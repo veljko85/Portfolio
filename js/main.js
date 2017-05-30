@@ -23,7 +23,19 @@ $(document).ready(function(){
 		$(".me").delay(700).show().animate({"right": "22vw"}, 1000);
 	});
 
-	
+	$(window).scroll(function() {
+  		if ($(document).scrollTop() > 50) {
+    		$(".header").fadeOut();
+    		$(".navigation").addClass("navDown");
+    		$("#top").show();
+  		}
+  		else {
+    	$(".header").show();
+    	$(".navigation").removeClass("navDown");
+    	$("#top").hide();
+  	};
+	});
+
 
 	$("a[data-scroll]").scroller();
 });
