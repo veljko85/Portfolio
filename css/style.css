@@ -132,22 +132,24 @@ body::-webkit-scrollbar    {
 .hiring	{
 	top: 50vh;
 	left: 25vw;
-	display: none;
+	
 }
 .question	{
-	top: 45vh;
-	left: 40vw;
-	font-size: 25vw;
+	display: none;
+}
+.quest {
+	top: 50vh;
+	left: 65vw;
 }
 .cont	{
 	top: 60vh;
-	left: -50vw;
-	display: none;
+	left: 15vw;
+	
 }
 .me 	{
 	top: 60vh;
-	right: -15vW;
-	display: none;
+	right: 25vW;
+	
 }
 										/*------ ABOUT ME */
 
@@ -242,7 +244,7 @@ body::-webkit-scrollbar    {
 	color: #0066ff;
 }
 .js	h3	{
-	color: #cccc00;
+	color: #999900;
 }
 .boot h3	{
 	color: #6600ff;
@@ -365,8 +367,6 @@ a {
 		margin-left: 92vw;
 		display: block;
 
-	}	.navDown:hover	{
-		opacity: 1;
 	}
 	.box	{
 		display: block;
@@ -395,11 +395,33 @@ a {
 		opacity: 0.5;
 	}
 	/*----text hire me----*/
+	.text 	{
+		font-size: 3vw;
+
+	}
+	.hiring	{
+		top: 40vh;
+		left: 40vw;
+		display: none;
+	}
+	.question	{
+		top: 40vh;
+		left: 43vw;
+		font-size: 15vw;
+		display: block;
+	}
+	.quest {
+		display: none;
+	}
 	.cont	{
-		top: 70vh;
+		top: 50vh;
+		left: -50vw;
+		display: none;
 	}
 	.me 	{
-		top: 70vh;
+		top: 50vh;
+		right: -15vW;
+		display: none;
 	}
 
 											/*------ ABOUT ME */

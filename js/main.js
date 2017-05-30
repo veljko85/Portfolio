@@ -17,14 +17,14 @@ $(document).ready(function(){
 	});
 
 	$(".question").hover(function(){
-		$(this).animate({"font-size": "10vw", "left": "65vw", "top": "50vh"}, 700);
+		$(this).animate({"font-size": "3vw", "left": "52vw", "top": "40vh"}, 700);
 		$(".hiring").fadeIn(700);
-		$(".cont").delay(700).show().animate({"left": "18vw"}, 1000);
-		$(".me").delay(700).show().animate({"right": "22vw"}, 1000);
+		$(".cont").delay(700).show().animate({"left": "37vw"}, 1000);
+		$(".me").delay(700).show().animate({"right": "45vw"}, 1000);
 	});
 
 	$(window).scroll(function() {
-  		if ($(document).scrollTop() > 50) {
+  		if ($(document).scrollTop() > 300) {
     		$(".header").fadeOut();
     		$(".navigation").addClass("navDown");
     		$("#top").show();
