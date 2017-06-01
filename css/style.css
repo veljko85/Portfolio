@@ -38,11 +38,11 @@
 	/* Hamburger button */
 
 	.hamburger	{
-		width: 12%;
-		height: 80%;
+		height: 30px;
+		width: 37.5px;
 		float: right;
 		right: 7%;
-		top: 10%;
+		top: 20%;
 		position: relative;
 	}
 	.prva, .druga, .treca	{
@@ -678,7 +678,7 @@
 	}
 }
 
-/*--------------MOBILE AND TABLET LANDSCAPE------------*/
+									/*--------------MOBILE AND TABLET LANDSCAPE------------*/
 
 @media screen and (max-width: 1024px) and (orientation: landscape){
 
@@ -718,11 +718,11 @@
 	/* Hamburger button */
 
 	.hamburger	{
-		height: 24px;
-		width: 30px; 
+		height: 30px;
+		width: 37.5px;
 		float: right;
 		right: 7%;
-		top: 7%;
+		top: 20%;
 		position: relative;
 	}
 	.prva, .druga, .treca	{
