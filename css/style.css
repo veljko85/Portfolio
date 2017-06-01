@@ -1,340 +1,342 @@
-*	{
-	box-sizing: border-box;
-	list-style: none;
-/*	 border: 1px solid red;  */
-}
-body	{
-	width: 100vw;
-	height: 100vw;
-	overflow-x: hidden;
-	font-family: 'Roboto Mono', monospace;
-	-ms-overflow-style: none;
-}
+/*----------------MOBILE---------------*/
 
-body::-webkit-scrollbar    {
-	width: 0;
-}	
-								/*--------- HOME wrap */
-
-#home	{			
-	width: 100vw;
-	height: 100vh;
-	background-image: url(../backgrounds/keyboard2.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    background-color: #fff;
-}
-.header		{
-	width: 100vw;
-	background-color: #000;
-	height: 8vh;
-}
-#title	{
-	color: #FFF;
-	float: left;
-	font-size: 4vh;
-	margin: 2vh 2vw;
-	font-family: 'Kaushan Script', cursive;
-}
-
-/* Hamburger button */
-
-.hamburger	{
-	width: 12%;
-	height: 80%;
-	float: right;
-	right: 7%;
-	top: 10%;
-	position: relative;
-}
-.prva, .druga, .treca	{
-	width: 100%;
-	height: 20%;
-	background-color: #FFF;
-	transition: transform .5s, top .5s;
-	position: absolute;
-}
-.prva	{
-	top: 10%;
-}
-.druga	{
-	top: 40%;
-}
-.treca	{
-	top: 70%;
-}
-.ukrstanje	{
-	top: 40%;
-	transform: rotate(45deg);
-}
-.ukrstanje-suprotno	{
-	top: 40%;
-	transform: rotate(-45deg);
-}
-
-/* Navvigation */
-
-.box    {
-	width: 50vw;
-	height: 5vh;
-	display: none;
-	margin-top: 1vh;
-	margin-left: -3vw;
-
-}
-.main-box	{
-	background-color: #000;
-	float: left;
-	color: #FFF;
-	width: 43vw;
-	height: 5vh;
-	transform: skewX(150deg);
-	-ms-transform: skewX(150deg);
-	-webkit-transform: skewX(150deg);
-}
-.box h2	{
-	font-size: 3vh;
-	padding: 1vh 5vw;
-	transform: skewX(210deg);
-	-ms-transform: skewX(210deg);
-	-webkit-transform: skewX(210deg);
-}
-.fader, .fadest	{
-	width: 1vw;
-	height: 5vh;
-	float: left;
-	transform: skewX(150deg);
-
-}
-.fader	{
-	background-color: rgba(0,0,0,0.6);
-	margin-left: 1%;
-}
-.fadest	{
-	background-color: rgba(0,0,0,0.3);
-	margin-left: 1%;
-}
-#top {
-	display: none;
-}
-.navDown {
-	display: none;
-}
-/*----text hire me----*/
-
-.text 	{
-	color: #000;
-	position: absolute;
-	font-size: 10vw;
-	font-weight: 900;
-}
-.hiring	{
-	top: 50vh;
-	left: 25vw;
-	
-}
-.question	{
-	display: none;
-}
-.quest {
-	top: 50vh;
-	left: 65vw;
-}
-.cont	{
-	top: 60vh;
-	left: 15vw;
-	
-}
-.me 	{
-	top: 60vh;
-	right: 25vW;
-	
-}
-										/*------ ABOUT ME */
-
-#about 	{
-	width: 100vw;
-	height: 100vh;
-}
-.squere		{
-	width: 50vw;
-	height: 33.3vh;
-	float: left;
-}
-.one	{
-	background-image: url(../backgrounds/travel.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-.two	{
-	background-color: rgb(255,255,255);
-}
-.three	{
-	background-image: url(../backgrounds/varvarin.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-.four	{
-	background-image: url(../backgrounds/food.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-.five	{
-	background-image: url(../backgrounds/mypicture.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-.six	{
-	background-image: url(../backgrounds/simba.jpg);
-	-webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-.info	{
-	background-color: rgba(255,255,255,0.5);
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	font-size: 2.2vh;
-	display: none;
-	padding: 8vh 0;
-	font-weight: 700;
-}
-.main-info	{
-	padding: 1vh 0;
-	font-size: 1.95vh;
-	text-align: center;
-	font-weight: 700;
-}
-
-									/*------SKILLS--------*/
-
-#skills 	{
-	width: 100vw;
-	height: 100vh;
-	text-align: center;
-	background-color: #fff;
-    background: -webkit-linear-gradient(#fff, #bfbfbf); 
-    background: -o-linear-gradient(#fff, #bfbfbf); 
-    background: -moz-linear-gradient(#fff, #bfbfbf); 
-    background: linear-gradient(#fff, #bfbfbf); 
-}
-#skills img {
-	height: 17vh;
-	padding-top: 2vh;
-}
-.sec  {
-	width: 50vw;
-	height: 25vh;
-	float: left;
-}
-.sec h3	{
-	font-size: 3vh;
-	font-weight: 700;
-}
-.html h3	{
-	color: #ff3300;
-}
-.css h3, .jquery h3	{
-	color: #0066ff;
-}
-.js	h3	{
-	color: #999900;
-}
-.boot h3	{
-	color: #6600ff;
-}
-.sass h3 {
-	color: #ff66d9;
-}
-.ai h3	{
-	color: #ff9933;
-}
-.ps h3 {
-	color: #00134d;
-}
-
-									/*----MY WORK----*/
-
-#myWork	{
-	width: 100vw;
-	height: 100vh;
-	text-align: center;
-	background-color: #fff;
-    background: -webkit-linear-gradient(#bfbfbf, #fff); 
-    background: -o-linear-gradient(#bfbfbf, #fff); 
-    background: -moz-linear-gradient(#bfbfbf, #fff); 
-    background: linear-gradient(#bfbfbf, #fff);
-}
-
-.niceTravel img {
-	width: 96vw;
-	margin-top: 50%;
-}
-
-									/*----CONTACT---*/
-
-#contact {
-	width: 100vw;
-	height: 100vh;
-	text-align: center;
-	width: 100vw;
-	height: 100vh;
-	text-align: center;
-	background-color: #fff;
-    background: -webkit-linear-gradient(#fff, #bfbfbf); 
-    background: -o-linear-gradient(#fff, #bfbfbf); 
-    background: -moz-linear-gradient(#fff, #bfbfbf); 
-    background: linear-gradient(#fff, #bfbfbf); 
-}
-#contact h1 {
-	padding: 5vh 0;
-	font-size: 7vh;
-}
-#contact p {
-	padding: 5vh 0;
-	font-size: 2.5vh;
-}
-#contact h2 {
-	padding: 5vh 0;
-	font-size: 3vh;
-	font-weight: 700;
-}
-#link, #git {
-	padding: 5vh 5vw;
-	font-size: 8vh;
-	color: #000;
-}
-a {
-	text-decoration: none;
-}
-#topButton {
-	display: block;
-	position: relative;
-	font-size: 8vh;
-	top: 20vh;
-	color: #000;
-}
-
-#scroller-top-button {
-	display: none;
-}
-
-
-
-/*--------------------- RESPONSIVE ---------------------------*/
-
-
-
-@media only screen and (orientation: landscape)	{
+@media screen and (max-width: 1024px) and (orientation: portrait){
 
 										/*-----HOMEPAGE-----*/
-	body, #home	{
+
+	body	{
+		width: 100vw;
+		height: 100vw;
+		overflow-x: hidden;
+		font-family: 'Roboto Mono', monospace;
+	}
+		
+									/*--------- HOME wrap */
+
+	#home	{			
+		width: 100vw;
+		height: 100vh;
+		background-image: url(../backgrounds/keyboard2.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	    background-color: #fff;
+	}
+	.header		{
+		width: 100vw;
+		background-color: #000;
+		height: 8vh;
+	}
+	#title	{
+		color: #FFF;
+		float: left;
+		font-size: 4vh;
+		margin: 2vh 2vw;
+		font-family: 'Kaushan Script', cursive;
+	}
+
+	/* Hamburger button */
+
+	.hamburger	{
+		width: 12%;
+		height: 80%;
+		float: right;
+		right: 7%;
+		top: 10%;
+		position: relative;
+	}
+	.prva, .druga, .treca	{
+		width: 100%;
+		height: 20%;
+		background-color: #FFF;
+		transition: transform .5s, top .5s;
+		position: absolute;
+	}
+	.prva	{
+		top: 10%;
+	}
+	.druga	{
+		top: 40%;
+	}
+	.treca	{
+		top: 70%;
+	}
+	.ukrstanje	{
+		top: 40%;
+		transform: rotate(45deg);
+	}
+	.ukrstanje-suprotno	{
+		top: 40%;
+		transform: rotate(-45deg);
+	}
+
+	/* Navvigation */
+
+	.box    {
+		width: 50vw;
+		height: 5vh;
+		display: none;
+		margin-top: 1vh;
+		margin-left: -3vw;
+
+	}
+	.main-box	{
+		background-color: #000;
+		float: left;
+		color: #FFF;
+		width: 43vw;
+		height: 5vh;
+		transform: skewX(150deg);
+		-ms-transform: skewX(150deg);
+		-webkit-transform: skewX(150deg);
+	}
+	.box h2	{
+		font-size: 3vh;
+		padding: 1vh 5vw;
+		transform: skewX(210deg);
+		-ms-transform: skewX(210deg);
+		-webkit-transform: skewX(210deg);
+	}
+	.fader, .fadest	{
+		width: 1vw;
+		height: 5vh;
+		float: left;
+		transform: skewX(150deg);
+
+	}
+	.fader	{
+		background-color: rgba(0,0,0,0.6);
+		margin-left: 1%;
+	}
+	.fadest	{
+		background-color: rgba(0,0,0,0.3);
+		margin-left: 1%;
+	}
+	#top {
+		display: none;
+	}
+	.navDown {
+		display: none;
+	}
+	/*----text hire me----*/
+
+	.text 	{
+		color: #000;
+		position: absolute;
+		font-size: 10vw;
+		font-weight: 900;
+	}
+	.hiring	{
+		top: 50vh;
+		left: 25vw;
+		
+	}
+	.question	{
+		display: none;
+	}
+	.quest {
+		top: 50vh;
+		left: 65vw;
+	}
+	.cont	{
+		top: 60vh;
+		left: 18vw;
+		
+	}
+	.me 	{
+		top: 60vh;
+		right: 22vw;
+		
+	}
+											/*------ ABOUT ME */
+
+	#about 	{
+		width: 100vw;
+		height: 100vh;
+	}
+	.squere		{
+		width: 50vw;
+		height: 33.3vh;
+		float: left;
+	}
+	.one	{
+		background-image: url(../backgrounds/travel.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.two	{
+		background-color: rgb(255,255,255);
+	}
+	.three	{
+		background-image: url(../backgrounds/varvarin.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.four	{
+		background-image: url(../backgrounds/food.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.five	{
+		background-image: url(../backgrounds/mypicture.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.six	{
+		background-image: url(../backgrounds/simba.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.info	{
+		background-color: rgba(255,255,255,0.5);
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		font-size: 2.2vh;
+		display: none;
+		padding: 8vh 0;
+		font-weight: 700;
+	}
+	.main-info	{
+		padding: 1vh 0;
+		font-size: 1.95vh;
+		text-align: center;
+		font-weight: 700;
+	}
+
+										/*------SKILLS--------*/
+
+	#skills 	{
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#fff, #bfbfbf); 
+	    background: -o-linear-gradient(#fff, #bfbfbf); 
+	    background: -moz-linear-gradient(#fff, #bfbfbf); 
+	    background: linear-gradient(#fff, #bfbfbf); 
+	}
+	#skills img {
+		height: 17vh;
+		padding-top: 2vh;
+	}
+	.sec  {
+		width: 50vw;
+		height: 25vh;
+		float: left;
+	}
+	.sec h3	{
+		font-size: 3vh;
+		font-weight: 700;
+	}
+	.html h3	{
+		color: #ff3300;
+	}
+	.css h3, .jquery h3	{
+		color: #0066ff;
+	}
+	.js	h3	{
+		color: #999900;
+	}
+	.boot h3	{
+		color: #6600ff;
+	}
+	.sass h3 {
+		color: #ff66d9;
+	}
+	.ai h3	{
+		color: #ff9933;
+	}
+	.ps h3 {
+		color: #00134d;
+	}
+
+										/*----MY WORK----*/
+
+	#myWork	{
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#bfbfbf, #fff); 
+	    background: -o-linear-gradient(#bfbfbf, #fff); 
+	    background: -moz-linear-gradient(#bfbfbf, #fff); 
+	    background: linear-gradient(#bfbfbf, #fff);
+	}
+
+	.niceTravel img {
+		width: 96vw;
+		margin-top: 50%;
+	}
+
+										/*----CONTACT---*/
+
+	#contact {
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#fff, #bfbfbf); 
+	    background: -o-linear-gradient(#fff, #bfbfbf); 
+	    background: -moz-linear-gradient(#fff, #bfbfbf); 
+	    background: linear-gradient(#fff, #bfbfbf); 
+	}
+	#contact h1 {
+		padding: 5vh 0;
+		font-size: 7vh;
+	}
+	#contact p {
+		padding: 5vh 0;
+		font-size: 2.5vh;
+	}
+	#contact h2 {
+		padding: 5vh 0;
+		font-size: 3vh;
+		font-weight: 700;
+	}
+	#link, #git {
+		padding: 5vh 5vw;
+		font-size: 8vh;
+		color: #000;
+	}
+	a {
+		text-decoration: none;
+	}
+	#topButton {
+		display: block;
+		position: relative;
+		font-size: 8vh;
+		top: 20vh;
+		color: #000;
+	}
+
+	#scroller-top-button {
+		display: none;
+	}
+}
+
+
+					/*--------------------- DESKTOP ---------------------------*/
+
+@media screen and (min-width: 1025px) and (orientation: landscape){
+
+	body	{
+		overflow-x: hidden;
+		font-family: 'Roboto Mono', monospace;
+		}
+	
+								/*--------- HOME wrap */
+	#home {
+		width: 100vw;
+		height: 100vh;
 		background-image: url(../backgrounds/keybord.jpg);
 		background-repeat: no-repeat;
         background-attachment: fixed;
@@ -342,51 +344,72 @@ a {
 	    background-size: cover;
 	    background-position: center;
 	    background-color: #fff;
-	}
-
+	}							
 	.header	{
+		width: 100%;
+		background-color: #000;
 		position: fixed;
 		z-index: 1000;
+		height: 6%;
 	}
+	#title	{
+		font-size: 3vh;
+		margin: 0.8% 2%;
+		color: #FFF;
+		float: left;
+		font-family: 'Kaushan Script', cursive;
+	}
+
+	/* Hamburger button */
+
 	.hamburger	{
-		display: none;
+			display: none;
 	}
-	
-	/* Navvigation */
+
+/* Navvigation */
 	.navigation {
-		width: 50vw;
-		height: 8vh;
-		margin-left: 60vw;
+		width: 50%;
+		height: 6%;
+		margin-left: 57%;
 		position: fixed;
 		z-index: 1001;
-		margin-top: 1vh
 	}
 	.navDown	{
 		opacity: 0.5;
 		width: 12.5vw;
-		margin-left: 92vw;
+		margin-left: 90vw;
 		display: block;
-
+		margin-top: 5%;
 	}
 	.box	{
 		display: block;
 		float: left;
-		width: 12.5vw;
+		width: 10vw;
+		height: 5%;
+		margin-top: 1%;
 		
 	}
-	.main-box {
-		width: 10vw;
-		text-align: center;
-		padding: 1vh 0;
-		transform: skewX(0deg);
-	   -ms-transform: skewX(0deg);
-	   -webkit-transform: skewX(0deg);
+	#top {
+		display: none;
 	}
-	.box h2 {
-		padding: 0;
+	.main-box {
+		width: 80%;
+		text-align: center;
+		padding: 0 0;
 		transform: skewX(0deg);
 	    -ms-transform: skewX(0deg);
 	    -webkit-transform: skewX(0deg);
+	    height: 3vh;
+	    background-color: #000;
+	    float: left;
+	    color: #FFF;
+	  }	
+	.box h2 {
+		padding: 3% 0;
+		transform: skewX(0deg);
+	    -ms-transform: skewX(0deg);
+	    -webkit-transform: skewX(0deg);
+	    font-size: 1.2vw;
 	}
 	.fader, .fadest	{
 		display: none;
@@ -394,10 +417,14 @@ a {
 	.main-box:hover	{
 		opacity: 0.5;
 	}
-	/*----text hire me----*/
+
+/*----text hire me----*/
+
 	.text 	{
 		font-size: 3vw;
-
+		color: #000;
+		position: absolute;
+		font-weight: 900;
 	}
 	.hiring	{
 		top: 40vh;
@@ -424,37 +451,98 @@ a {
 		display: none;
 	}
 
-											/*------ ABOUT ME */
+										/*------ ABOUT ME */
+
 	#about {
 		background: -webkit-linear-gradient(#bfbfbf, #fff); 
 	    background: -o-linear-gradient(#bfbfbf, #fff); 
 	    background: -moz-linear-gradient(#bfbfbf, #fff); 
 	    background: linear-gradient(#bfbfbf, #fff);
-	}
+	    width: 100vw;
+		height: 100vh;
+		text-align: center;
+	}									
 	.abo {
-		width: 150vh;
-		margin-left: 25vh;
+		width: 75%;
+		height: 100%;
+		display: inline-block;
 	}
 	.squere		{
-		width: 50vh;
-		height: 50vh;
+		width: 33%;
+		height: 50%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.one	{
+		background-image: url(../backgrounds/travel.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.two	{
+		background-color: rgb(255,255,255);
+	}
+	.three	{
+		background-image: url(../backgrounds/varvarin.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.four	{
+		background-image: url(../backgrounds/food.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.five	{
+		background-image: url(../backgrounds/mypicture.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.six	{
+		background-image: url(../backgrounds/simba.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
 	}
 	.info	{
 		font-size: 4vh;
-		padding: 8vh 1vh;
+		padding: 20% 1%;
+		background-color: rgba(255,255,255,0.5);
+		height: 100%;
+		width: 100%;
+		display: none;
+		font-weight: 700;
 	}
 	.main-info	{
-		padding: 1vh;
+		padding: 3%;
 		font-size: 3.1vh;
+		text-align: center;
+		font-weight: 700;
 	}
 
-											/*------SKILLS--------*/
+												/*------SKILLS--------*/
+
+
+	#skills 	{
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#fff, #bfbfbf); 
+	    background: -o-linear-gradient(#fff, #bfbfbf); 
+	    background: -moz-linear-gradient(#fff, #bfbfbf); 
+	    background: linear-gradient(#fff, #bfbfbf); 
+	}
 	#skills img  {
 		height: 40vh;
 		transform: skewX(200deg);
+		padding-top: 2vh;
 	}
 	.skillsGroup	{
-		width: 100vw;
+		width: 100%;
 		margin: 0 5vw;
 		padding: 15vh 0;
 	}
@@ -465,11 +553,35 @@ a {
 		transform: skewX(160deg);
 		transition: width 3s;
 		border-right: thick solid silver;
+		float: left;
 	}
 	.sec h3	{
 		display: none;
 		position: relative;
 		top: 25vh;
+		font-size: 3vh;
+		font-weight: 700;
+	}
+	.html h3	{
+		color: #ff3300;
+	}
+	.css h3, .jquery h3	{
+		color: #0066ff;
+	}
+	.js	h3	{
+		color: #999900;
+	}
+	.boot h3	{
+		color: #6600ff;
+	}
+	.sass h3 {
+		color: #ff66d9;
+	}
+	.ai h3	{
+		color: #ff9933;
+	}
+	.ps h3 {
+		color: #00134d;
 	}
 	.sec:hover	{
 		width: 25vw;
@@ -502,11 +614,399 @@ a {
 		background-color: rgba(0,19,77,0.5);
 	}
 
-												/*----MY WORK----*/
+									/*----MY WORK----*/
 
-
+	#myWork	{
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#bfbfbf, #fff); 
+	    background: -o-linear-gradient(#bfbfbf, #fff); 
+	    background: -moz-linear-gradient(#bfbfbf, #fff); 
+	    background: linear-gradient(#bfbfbf, #fff);
+	}
 	.niceTravel	img{
-		width: 30%;
-		margin: 20%;
+			width: 30%;
+			margin: 20%;
+	}
+
+									/*----CONTACT---*/
+
+	#contact {
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#fff, #bfbfbf); 
+	    background: -o-linear-gradient(#fff, #bfbfbf); 
+	    background: -moz-linear-gradient(#fff, #bfbfbf); 
+	    background: linear-gradient(#fff, #bfbfbf); 
+	}
+	#contact h1 {
+		padding: 5vh 0;
+		font-size: 7vh;
+	}
+	#contact p {
+		padding: 5vh 0;
+		font-size: 2.5vh;
+	}
+	#contact h2 {
+		padding: 5vh 0;
+		font-size: 3vh;
+		font-weight: 700;
+	}
+	#link, #git {
+		padding: 5vh 5vw;
+		font-size: 8vh;
+		color: #000;
+	}
+	a {
+		text-decoration: none;
+	}
+	#topButton {
+		display: block;
+		position: relative;
+		font-size: 8vh;
+		top: 20vh;
+		color: #000;
+	}
+
+	#scroller-top-button {
+		display: none;
 	}
 }
+
+/*--------------MOBILE AND TABLET LANDSCAPE------------*/
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+
+										/*-----HOMEPAGE-----*/
+
+	body	{
+		width: 100vw;
+		height: 100vw;
+		overflow-x: hidden;
+		font-family: 'Roboto Mono', monospace;
+	}
+		
+									/*--------- HOME wrap */
+
+	#home	{			
+		width: 100vw;
+		height: 100vh;
+		background-image: url(../backgrounds/keybord.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	    background-color: #fff;
+	}
+	.header		{
+		width: 100vw;
+		background-color: #000;
+		height: 13vh;
+	}
+	#title	{
+		color: #FFF;
+		float: left;
+		font-size: 8vh;
+		margin: 3vh 2vw;
+		font-family: 'Kaushan Script', cursive;
+	}
+
+	/* Hamburger button */
+
+	.hamburger	{
+		width: 7%;
+		height: 90%;
+		float: right;
+		right: 7%;
+		top: 7%;
+		position: relative;
+	}
+	.prva, .druga, .treca	{
+		width: 100%;
+		height: 20%;
+		background-color: #FFF;
+		transition: transform .5s, top .5s;
+		-ms-transform: transform .5s, top .5s;
+	    -webkit-transform: transform .5s, top .5s;
+		position: absolute;
+	}
+	.prva	{
+		top: 10%;
+	}
+	.druga	{
+		top: 40%;
+	}
+	.treca	{
+		top: 70%;
+	}
+	.ukrstanje	{
+		top: 40%;
+		transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	}
+	.ukrstanje-suprotno	{
+		top: 40%;
+		transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+	    -webkit-transform: rotate(-45deg);
+	}
+
+	/* Navvigation */
+
+	.box    {
+		width: 50vw;
+		height: 10vh;
+		display: none;
+		margin-top: 1vh;
+		margin-left: -3vw;
+
+	}
+	.main-box	{
+		background-color: #000;
+		float: left;
+		color: #FFF;
+		width: 43vw;
+		height: 10vh;
+		transform: skewX(150deg);
+		-ms-transform: skewX(150deg);
+		-webkit-transform: skewX(150deg);
+	}
+	.box h2	{
+		font-size: 6vh;
+		padding: 1vh 5vw;
+		transform: skewX(210deg);
+		-ms-transform: skewX(210deg);
+		-webkit-transform: skewX(210deg);
+	}
+	.fader, .fadest	{
+		width: 1vw;
+		height: 10vh;
+		float: left;
+		transform: skewX(150deg);
+		-ms-transform: skewX(150deg);
+		-webkit-transform: skewX(150deg);
+	}
+	.fader	{
+		background-color: rgba(0,0,0,0.6);
+		margin-left: 1%;
+	}
+	.fadest	{
+		background-color: rgba(0,0,0,0.3);
+		margin-left: 1%;
+	}
+	#top {
+		display: none;
+	}
+	.navDown {
+		display: none;
+	}
+	/*----text hire me----*/
+
+	.text 	{
+		color: #000;
+		position: absolute;
+		font-size: 5vw;
+		font-weight: 900;
+	}
+	.hiring	{
+		top: 70vh;
+		left: 40vw;
+		
+	}
+	.question	{
+		display: none;
+	}
+	.quest {
+		top: 70vh;
+		left: 60vw;
+	}
+	.cont	{
+		top: 80vh;
+		left: 36vw;
+		
+	}
+	.me 	{
+		top: 80vh;
+		right: 34vw;
+		
+	}
+											/*------ ABOUT ME */
+
+	#about 	{
+		width: 100vw;
+		height: 100vh;
+	}
+	.squere		{
+		width: 33.3vw;
+		height: 50vh;
+		float: left;
+		overflow: hidden;
+	}
+	.one	{
+		background-image: url(../backgrounds/travel.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.two	{
+		background-color: rgb(255,255,255);
+	}
+	.three	{
+		background-image: url(../backgrounds/varvarin.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.four	{
+		background-image: url(../backgrounds/food.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.five	{
+		background-image: url(../backgrounds/mypicture.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.six	{
+		background-image: url(../backgrounds/simba.jpg);
+		-webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	}
+	.info	{
+		background-color: rgba(255,255,255,0.5);
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		font-size: 4.5vh;
+		display: none;
+		padding: 8vh 0;
+		font-weight: 700;
+	}
+	.main-info	{
+		padding: 1vh 0;
+		font-size: 3.5vh;
+		text-align: center;
+		font-weight: 700;
+	}
+
+										/*------SKILLS--------*/
+
+	#skills 	{
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#fff, #bfbfbf); 
+	    background: -o-linear-gradient(#fff, #bfbfbf); 
+	    background: -moz-linear-gradient(#fff, #bfbfbf); 
+	    background: linear-gradient(#fff, #bfbfbf); 
+	}
+	#skills img {
+		height: 17vh;
+		padding-top: 2vh;
+	}
+	.sec  {
+		width: 50vw;
+		height: 25vh;
+		float: left;
+	}
+	.sec h3	{
+		font-size: 3vh;
+		font-weight: 700;
+	}
+	.html h3	{
+		color: #ff3300;
+	}
+	.css h3, .jquery h3	{
+		color: #0066ff;
+	}
+	.js	h3	{
+		color: #999900;
+	}
+	.boot h3	{
+		color: #6600ff;
+	}
+	.sass h3 {
+		color: #ff66d9;
+	}
+	.ai h3	{
+		color: #ff9933;
+	}
+	.ps h3 {
+		color: #00134d;
+	}
+
+										/*----MY WORK----*/
+
+	#myWork	{
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#bfbfbf, #fff); 
+	    background: -o-linear-gradient(#bfbfbf, #fff); 
+	    background: -moz-linear-gradient(#bfbfbf, #fff); 
+	    background: linear-gradient(#bfbfbf, #fff);
+	}
+
+	.niceTravel img {
+		width: 50vw;
+		margin-top: 20%;
+	}
+
+										/*----CONTACT---*/
+
+	#contact {
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: -webkit-linear-gradient(#fff, #bfbfbf); 
+	    background: -o-linear-gradient(#fff, #bfbfbf); 
+	    background: -moz-linear-gradient(#fff, #bfbfbf); 
+	    background: linear-gradient(#fff, #bfbfbf); 
+	}
+	#contact h1 {
+		padding: 5vh 0;
+		font-size: 7vh;
+	}
+	#contact p {
+		padding: 5vh 0;
+		font-size: 2.5vh;
+	}
+	#contact h2 {
+		padding: 5vh 0;
+		font-size: 3vh;
+		font-weight: 700;
+	}
+	#link, #git {
+		padding: 5vh 5vw;
+		font-size: 8vh;
+		color: #000;
+	}
+	a {
+		text-decoration: none;
+	}
+	#topButton {
+		display: block;
+		position: relative;
+		font-size: 8vh;
+		top: 20vh;
+		color: #000;
+	}
+
+	#scroller-top-button {
+		display: none;
+	}
+}
+

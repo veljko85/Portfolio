@@ -24,7 +24,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function() {
-  		if ($(document).scrollTop() > 300) {
+  		if ($(document).scrollTop() > 50) {
     		$(".header").fadeOut();
     		$(".navigation").addClass("navDown");
     		$("#top").show();
