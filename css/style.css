@@ -158,6 +158,7 @@
 		width: 50vw;
 		height: 33.3vh;
 		float: left;
+		overflow: hidden;
 	}
 	.one	{
 		background-image: url(../backgrounds/travel.jpg);
