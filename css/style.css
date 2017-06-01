@@ -718,8 +718,8 @@
 	/* Hamburger button */
 
 	.hamburger	{
-		width: 7%;
-		height: 90%;
+		height: 24px;
+		width: 30px; 
 		float: right;
 		right: 7%;
 		top: 7%;
