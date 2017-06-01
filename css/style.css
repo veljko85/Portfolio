@@ -814,7 +814,7 @@
 		font-weight: 900;
 	}
 	.hiring	{
-		top: 70vh;
+		top: 60vh;
 		left: 40vw;
 		
 	}
@@ -822,16 +822,16 @@
 		display: none;
 	}
 	.quest {
-		top: 70vh;
+		top: 60vh;
 		left: 60vw;
 	}
 	.cont	{
-		top: 80vh;
+		top: 70vh;
 		left: 36vw;
 		
 	}
 	.me 	{
-		top: 80vh;
+		top: 70vh;
 		right: 34vw;
 		
 	}
