@@ -1,4 +1,4 @@
-/*----------------MOBILE---------------*/
+/*----------------MOBILE AND TABLET PORTRAIT---------------*/
 
 @media screen and (max-width: 1024px) and (orientation: portrait){
 
@@ -38,11 +38,11 @@
 	/* Hamburger button */
 
 	.hamburger	{
-		height: 30px;
-		width: 37.5px;
+		height: 50%;
+		width: 10%;
 		float: right;
 		right: 7%;
-		top: 20%;
+		top: 25%;
 		position: relative;
 	}
 	.prva, .druga, .treca	{
@@ -718,11 +718,11 @@
 	/* Hamburger button */
 
 	.hamburger	{
-		height: 30px;
-		width: 37.5px;
+		height: 50%;
+		width: 6%;
 		float: right;
 		right: 7%;
-		top: 20%;
+		top: 25%;
 		position: relative;
 	}
 	.prva, .druga, .treca	{
