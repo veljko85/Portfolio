@@ -628,7 +628,8 @@
 	.myWebPages img {
 			width: 30%;
 			float: left;
-			margin: 2.5% 0 0 2.5%;
+			padding: 20px;
+
 	}
 
 									/*----CONTACT---*/
