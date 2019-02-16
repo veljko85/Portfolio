@@ -1,0 +1,269 @@
+body  {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	
+	#home	{
+		background: url("../img/keyboard2.jpg") no-repeat fixed center;
+		background-size: cover;
+		height: 100vh;
+		width: 100%;
+		
+		header	{
+			width: 100%;
+			height: 60px;
+			background-color: #000;
+
+			#title	{
+				font: 30px 'Kaushan Script';
+				color: #fff;
+				margin: 8px 5px;
+				float: left;
+			}
+
+			#hamburgerButton	{
+				width: 30px;
+				height: 18px;
+				float: right;
+				margin: 21px 21px 0 0;
+
+				#firstLine, #secondLine, #thirdLine	{
+					width: 30px;
+					height: 4px;
+					background-color: #fff;
+					transition: 0.3s;
+					position: relative;
+				}
+				#firstLine	{
+					top: 0;
+				}
+				#secondLine	{
+					top: 3px;
+				}
+				#thirdLine	{
+					top: 6px;
+				}
+				.change1  {
+					top: 7px !important;
+					transform: rotate(45deg);
+				}
+				.change2  {
+					top: 3px !important;
+					transform: rotate(-45deg);
+				}
+			}
+		}
+
+		#nav	{
+			width: 100%;
+			margin-left: -50%;
+
+			.box  {
+				width: 60%;
+				height: 30px;
+				margin-top: 5px;
+				transform: skew(150deg);
+
+				.mainBox	{
+					width: 90%;
+					height: 100%;
+					background-color: #000;
+					color: #fff;
+					font: 20px 'Roboto Mono';
+					float: left;
+
+					h2	{
+						transform: skew(-150deg);
+						margin-left: 25%;					
+					}
+				}
+				.fader, .fadest	{
+					width: 4px;
+					height: 100%;
+					margin-left: 2px;
+					float: left;
+				}
+				.fader	{
+					background-color: rgba(0,0,0,0.6);
+				}
+				.fadest	{
+					background-color: rgba(0,0,0,0.3);
+				}
+			}
+			#firstBox, #secondBox, #thirdBox, #fourthBox {
+				margin-left: -10%;
+				transition: 1s;
+			}
+		}
+
+		#hiring	{
+			width: 200px;
+			margin: 30% auto;
+			font: 600 30px 'Roboto Mono';
+			text-align: center;
+			
+
+			h3	{
+				color: #000;
+				animation: showHiring 2s linear;
+			}
+
+			@keyframes showHiring	{
+				0% {opacity: 0;}
+				100% {opacity: 1;}
+			}
+
+		}
+	}
+
+	#about	{
+		width: 100%;
+		height: 100vh;
+
+		.squere	{
+			width: 50%;
+			height: 33.33vh;
+			float: left;
+
+			.info	{
+				background-color: #fff;
+				opacity: 0;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				font: 600 13px 'Roboto Mono';
+
+				h3	{
+					padding-top: 40px;
+				}
+			}
+			.info:hover	{
+				opacity: 0.6;
+			}
+
+			.main  {
+				opacity: 1;
+				font-size: 10px;
+			}
+		}
+		.one  {
+			background-image: url(../img/travel.jpg);
+		    background-size: cover;
+		    background-position: center;
+		}
+		.two  {
+			background-color: #fff;
+		}
+		.three  {
+			background-image: url(../img/varvarin.jpg);
+		    background-size: cover;
+		    background-position: center;
+		}
+		.four  {
+			background-image: url(../img/food.jpg);
+		    background-size: cover;
+		    background-position: center;
+		}
+		.five  {
+			background-image: url(../img/mypicture.jpg);
+		    background-size: cover;
+		    background-position: center;
+		}
+		.six  {
+			background-image: url(../img/simba.jpg);
+		    background-size: cover;
+		    background-position: center;
+		}
+	}
+
+	#skills	{
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: linear-gradient(#fff, #bfbfbf); 
+		
+		.sec {
+			width: 50%;
+			height: 25vh;
+			float: left;
+			font: 600 16px 'Roboto Mono'; 
+
+			img {
+				width: 60%;
+				padding-top: 15px;
+			}
+
+		}	
+		.html	{
+			color: #ff3300;
+		}
+		.css, .jquery	{
+			color: #0066ff;
+		}
+		.js	{
+			color: #999900;
+		}
+		.boot	{
+			color: #6600ff;
+		}
+		.sass  {
+			color: #ff66d9;
+		}
+		.ai	{
+				color: #ff9933;
+		}
+		.ps {
+				color: #00134d;
+		}
+	}
+
+	#myWork	{
+		width: 100%;
+		text-align: center;
+		background-color: #fff;
+	    background: linear-gradient(#bfbfbf, #fff);
+
+	    .myWebPages	{
+	    	width: 95%;
+	    	padding: 10px 0 0 2.5%;
+
+	    	img {
+	    		width: 100%;
+	    	}
+	    }
+	}
+
+	#contact  {
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background-color: #fff;
+	    background: linear-gradient(#fff, #bfbfbf);
+	    color: #000;
+
+	    h1	{
+	    	font: 600 35px 'Roboto Mono';
+	    	padding-top: 50px;
+	    }
+	    p  {
+	    	font: 600 15px 'Roboto Mono';
+	    	padding-top: 50px;;
+	    }
+	    h2  {
+	    	font: 600 18px 'Roboto Mono';
+	    	padding-top: 50px;
+	    }
+	    #git, #link, #topButton {
+	    	font-size: 50px;
+	    	color: #000;
+	    	padding-top: 50px;
+	    }
+	    #link {
+	    	padding-left: 50px;
+	    }
+	}
+	#scroller-top-button {
+		display: none;
+	}
+}

@@ -1,0 +1,196 @@
+@media screen and (min-width: 990px) {
+	body  {
+		
+		#home	{
+			background: url("../img/keyboard.jpg") no-repeat fixed center;
+			background-size: cover;			
+			
+			header	{
+				height: 120px;
+
+				#title	{
+					font: 60px 'Kaushan Script';
+					margin: 16.5px 10%;
+				}
+
+				#hamburgerButton	{
+					width: 30px;
+					height: 18px;
+					float: right;
+					margin: 21px 21px 0 0;
+					display: none;
+
+					#firstLine, #secondLine, #thirdLine	{
+						width: 30px;
+						height: 4px;
+						background-color: #fff;
+						transition: 0.3s;
+						position: relative;
+					}
+					#firstLine	{
+						top: 0;
+					}
+					#secondLine	{
+						top: 3px;
+					}
+					#thirdLine	{
+						top: 6px;
+					}
+					.change1  {
+						top: 7px !important;
+						transform: rotate(45deg);
+					}
+					.change2  {
+						top: 3px !important;
+						transform: rotate(-45deg);
+					}
+				}
+			}
+
+			#nav	{
+				width: 40%;
+				margin-left: 0;
+				margin-top: -35px;
+				float: right;
+				text-align: center;
+
+				.box  {
+					width: 25%;
+					height: 30px;
+					margin-top: 0;
+					float: left;
+					transform: skew(150deg);
+
+					.mainBox	{
+						width: 90%;
+						height: 100%;
+						background-color: #000;
+						color: #fff;
+						font: 20px 'Roboto Mono';
+						float: none;
+
+						h2	{
+							transform: skew(-150deg);
+							margin-left: 0;					
+						}
+					}
+					.fader, .fadest	{
+						display: none;
+					}
+				}
+				.mainBox:hover	{
+					border-bottom: 5px solid #fff;
+					border-right: 3px solid #fff;
+				}
+				#firstBox, #secondBox, #thirdBox, #fourthBox {
+					margin-left: 0;
+				}
+			}
+
+			#hiring	{
+				width: 50%;
+				margin: 10% auto;
+				font: 600 80px 'Roboto Mono';
+			}
+		}
+
+		#about	{
+
+			.squere	{
+				width: 33.33%;
+				height: 50vh;
+
+				.info	{
+					font: 600 30px 'Roboto Mono';
+
+					h3	{
+						padding-top: 20%;
+					}
+				}
+
+				.main  {
+					font-size: 30px;
+				}
+			}
+		}
+
+		#skills	{
+			
+			.sec {
+				width: 11%;
+				height: 80vh;
+				margin-top: 10vh;
+				transform: skew(-200deg);
+				font: 600 30px 'Roboto Mono'; 
+				overflow: hidden;
+				border-right: 5px solid silver;
+				transition: 3s;
+
+				img {
+					width: 40vh;
+					height: 40vh;
+					transform: skew(200deg);
+				}
+
+			}
+			.sec:hover	{
+				width: 20%;
+			}	
+			.html:hover	{
+				background-color: rgba(255,51,0,0.5);
+			}
+			.css:hover 	{
+				background-color: rgba(0,102,255,0.5);
+			}
+			.js:hover	{
+				background-color: rgba(204,204,0,0.3);
+			}
+			.jquery:hover {
+				background-color: rgba(0,102,255,0.5);
+			}
+			.boot:hover	{
+				background-color: rgba(102,0,255,0.5);
+			}
+			.sass:hover {
+				background-color: rgba(255,102,217,0.5);
+			}
+			.ai:hover	{
+				background-color: rgba(255,153,51,0.5);
+			}
+			.ps:hover {
+				background-color: rgba(0,19,77,0.5);
+			}
+		}
+
+		#myWork	{
+			height: 100vh;
+		    
+		    .myWebPages	{
+		    	width: 30%;
+		    	float: left;
+		    }
+		}
+
+		#contact  {
+
+		    h1	{
+		    	font: 600 50px 'Roboto Mono';
+		    	padding-top: 100px;
+		    }
+		    p  {
+		    	font: 600 30px 'Roboto Mono';
+		    	padding-top: 100px;;
+		    }
+		    h2  {
+		    	font: 600 40px 'Roboto Mono';
+		    	padding-top: 100px;
+		    }
+		    #git, #link, #topButton {
+		    	padding-top: 100px;
+		    }
+		    #link {
+		    	padding-left: 100px;
+		    }
+		}
+	}
+}

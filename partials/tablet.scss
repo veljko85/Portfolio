@@ -1,0 +1,87 @@
+@media screen and (min-width: 768px) {
+	body  {
+	
+		#home	{
+			
+			header	{
+				height: 80px;
+
+				#title	{
+					font: 40px 'Kaushan Script';
+					color: #fff;
+					margin: 11px 8px;
+				}
+
+				#hamburgerButton	{
+					margin: 31px 31px 0 0;
+				}
+			}
+
+			#nav	{
+
+				.box  {
+					height: 40px;
+					margin-top: 10px;
+
+					.mainBox	{
+						font: 26.6px 'Roboto Mono';
+					}
+					.fader, .fadest	{
+						width: 6px;
+						margin-left: 3px;
+					}
+				}
+			}
+
+			#hiring	{
+				width: 400px;
+				font: 600 50px 'Roboto Mono';
+			}
+		}
+
+		#about	{
+
+			.squere	{
+
+				.info	{
+					font: 600 30px 'Roboto Mono';
+				}
+
+				.main  {
+					font-size: 20px;
+				}
+			}	
+		}
+
+		#skills	{
+			
+			.sec {
+				font: 600 25px 'Roboto Mono'; 
+
+				img {
+					width: 40%;
+				}
+			}	
+		}
+
+		#contact  {
+
+		    h1	{
+		    	font: 600 50px 'Roboto Mono';
+		    	padding-top: 50px;
+		    }
+		    p  {
+		    	font: 600 25px 'Roboto Mono';
+		    	padding-top: 70px;;
+		    }
+		    h2  {
+		    	font: 600 30px 'Roboto Mono';
+		    	padding-top: 70px;
+		    }
+		    #git, #link, #topButton {
+		    	font-size: 70px;
+		    	padding-top: 100px;
+		    }
+		}
+	}
+}	

@@ -1,0 +1,126 @@
+@media screen and (min-width: 990px) {
+  body #home {
+    background: url("../img/keyboard.jpg") no-repeat fixed center;
+    background-size: cover; }
+    body #home header {
+      height: 120px; }
+      body #home header #title {
+        font: 60px 'Kaushan Script';
+        margin: 16.5px 10%; }
+      body #home header #hamburgerButton {
+        width: 30px;
+        height: 18px;
+        float: right;
+        margin: 21px 21px 0 0;
+        display: none; }
+        body #home header #hamburgerButton #firstLine, body #home header #hamburgerButton #secondLine, body #home header #hamburgerButton #thirdLine {
+          width: 30px;
+          height: 4px;
+          background-color: #fff;
+          transition: 0.3s;
+          position: relative; }
+        body #home header #hamburgerButton #firstLine {
+          top: 0; }
+        body #home header #hamburgerButton #secondLine {
+          top: 3px; }
+        body #home header #hamburgerButton #thirdLine {
+          top: 6px; }
+        body #home header #hamburgerButton .change1 {
+          top: 7px !important;
+          transform: rotate(45deg); }
+        body #home header #hamburgerButton .change2 {
+          top: 3px !important;
+          transform: rotate(-45deg); }
+    body #home #nav {
+      width: 40%;
+      margin-left: 0;
+      margin-top: -35px;
+      float: right;
+      text-align: center; }
+      body #home #nav .box {
+        width: 25%;
+        height: 30px;
+        margin-top: 0;
+        float: left;
+        transform: skew(150deg); }
+        body #home #nav .box .mainBox {
+          width: 90%;
+          height: 100%;
+          background-color: #000;
+          color: #fff;
+          font: 20px 'Roboto Mono';
+          float: none; }
+          body #home #nav .box .mainBox h2 {
+            transform: skew(-150deg);
+            margin-left: 0; }
+        body #home #nav .box .fader, body #home #nav .box .fadest {
+          display: none; }
+      body #home #nav .mainBox:hover {
+        border-bottom: 5px solid #fff;
+        border-right: 3px solid #fff; }
+      body #home #nav #firstBox, body #home #nav #secondBox, body #home #nav #thirdBox, body #home #nav #fourthBox {
+        margin-left: 0; }
+    body #home #hiring {
+      width: 50%;
+      margin: 10% auto;
+      font: 600 80px 'Roboto Mono'; }
+  body #about .squere {
+    width: 33.33%;
+    height: 50vh; }
+    body #about .squere .info {
+      font: 600 30px 'Roboto Mono'; }
+      body #about .squere .info h3 {
+        padding-top: 20%; }
+    body #about .squere .main {
+      font-size: 30px; }
+  body #skills .sec {
+    width: 11%;
+    height: 80vh;
+    margin-top: 10vh;
+    transform: skew(-200deg);
+    font: 600 30px 'Roboto Mono';
+    overflow: hidden;
+    border-right: 5px solid silver;
+    transition: 3s; }
+    body #skills .sec img {
+      width: 40vh;
+      height: 40vh;
+      transform: skew(200deg); }
+  body #skills .sec:hover {
+    width: 20%; }
+  body #skills .html:hover {
+    background-color: rgba(255, 51, 0, 0.5); }
+  body #skills .css:hover {
+    background-color: rgba(0, 102, 255, 0.5); }
+  body #skills .js:hover {
+    background-color: rgba(204, 204, 0, 0.3); }
+  body #skills .jquery:hover {
+    background-color: rgba(0, 102, 255, 0.5); }
+  body #skills .boot:hover {
+    background-color: rgba(102, 0, 255, 0.5); }
+  body #skills .sass:hover {
+    background-color: rgba(255, 102, 217, 0.5); }
+  body #skills .ai:hover {
+    background-color: rgba(255, 153, 51, 0.5); }
+  body #skills .ps:hover {
+    background-color: rgba(0, 19, 77, 0.5); }
+  body #myWork {
+    height: 100vh; }
+    body #myWork .myWebPages {
+      width: 30%;
+      float: left; }
+  body #contact h1 {
+    font: 600 50px 'Roboto Mono';
+    padding-top: 100px; }
+  body #contact p {
+    font: 600 30px 'Roboto Mono';
+    padding-top: 100px; }
+  body #contact h2 {
+    font: 600 40px 'Roboto Mono';
+    padding-top: 100px; }
+  body #contact #git, body #contact #link, body #contact #topButton {
+    padding-top: 100px; }
+  body #contact #link {
+    padding-left: 100px; } }
+
+/*# sourceMappingURL=desktop.css.map */
