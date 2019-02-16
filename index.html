@@ -1,234 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<section id="home">
-<nav>
-	<div class="header">
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Portfolio</title>
+			<link rel="stylesheet" type="text/css" href="css/reset.css">
+			<link rel="stylesheet" type="text/css" href="scss/style.css">
+		</head>
+		<body>
+
+		<section id="home">
+
+			<header>
+				
+				<div id="title"><h1>Velibor Marković</h1></div>
+
+				<div id="hamburgerButton" onclick="hamburger();">
+					<div id="firstLine"></div>
+					<div id="secondLine"></div>
+					<div id="thirdLine"></div>
+				</div>
+			
+			</header>
+			
+			<nav id="nav">
+
+					<div class="box" id="firstBox">
+						<a href="#about" data-scroll>
+							<div class="mainBox">
+								<h2>about me<h2>
+							</div>
+						</a>
+						<div class="fader"></div>
+						<div class="fadest"></div>
+
+					</div>
+				
+					<div class="box" id="secondBox">
+						<a href="#skills" data-scroll>
+							<div class="mainBox">
+								<h2>skills</h2>
+							</div>
+						</a>
+						<div class="fader"></div>
+						<div class="fadest"></div>
+					</div>
 		
-		<div id="title"><h1>Velibor Marković</h1></div>
-
-		<div class="hamburger">
-			<div class="prva"></div>
-			<div class="druga"></div>
-			<div class="treca"></div>
-		</div>
+					<div class="box" id="thirdBox">
+						<a href="#myWork" data-scroll>
+							<div class="mainBox">
+								<h2>my work</h2>
+							</div>
+						</a>
+						<div class="fader"></div>
+						<div class="fadest"></div>
+					</div>
 	
-	</div>
-	
-	<ul class="navigation">
-
-		<li>
-			<div class="box first">
-				<a href="#about" data-scroll>
-					<div class="main-box">
-						<h2>about me<h2>
+					<div class="box" id="fourthBox">
+						<a href="#contact" data-scroll>
+							<div class="mainBox">
+								<h2>contact</h2>
+							</div>
+						</a>
+						<div class="fader"></div>
+						<div class="fadest"></div>
 					</div>
-				</a>
-				<div class="fader"></div>
-				<div class="fadest"></div>
-
-			</div>
-		</li>
-		<li>
-			<div class="box second">
-				<a href="#skills" data-scroll>
-					<div class="main-box">
-						<h2>skills</h2>
-					</div>
-				</a>
-				<div class="fader"></div>
-				<div class="fadest"></div>
-			</div>
-		</li>
-		<li>
-			<div class="box third">
-				<a href="#myWork" data-scroll>
-					<div class="main-box">
-						<h2>my work</h2>
-					</div>
-				</a>
-				<div class="fader"></div>
-				<div class="fadest"></div>
-			</div>
-		</li>
-		<li>
-			<div class="box fourth">
+				
+			</nav>
+			<div id="hiring">
+				<h3 class="hiring text">Hiring?</h3>
 				<a href="#contact" data-scroll>
-					<div class="main-box">
-						<h2>contact</h2>
-					</div>
+					<h3 class="cont text">Contact me</h3>
 				</a>
-				<div class="fader"></div>
-				<div class="fadest"></div>
-			</div>
-		</li>
-		<li>
-			<div id="top" class="box">
-				<a href="#home" data-scroll>
-					<div class="main-box">
-						<h2>top</h2>
+			</div>	
+		</section>
+
+		<section id="about">
+			<div class="abo">
+				<div class="squere one">
+					<div class="info">
+						<h3>I love to travel, meet new and interesting people, learn new languages and cultures.</h3>
+					</div>	
+				</div>
+
+				<div class="squere two">
+					<h3 class="info main">I am Velibor Marković, self motivated, self taught Front-end Web developer (if i can call myself that way yet). I can't spend a day without coding, learnig new things and developing my self in that direction. They say that if you find what you love to do and make a living from it, you are truly happy person. I'm on half way from it...</h3>
+				</div>
+				
+				<div class="squere three">
+					<div class="info">
+						<h3>I have a Bachelor degree in Internatioal Business Administration, I am fluent in English, know a little bit of Spanish and German.</h3>
 					</div>
+				</div>
+
+				<div class="squere four">
+					<div class="info">
+						<h3>I am highly motivated person that never give up, have good communicational skills, self aware, never hesitate to ask and consult.</h3>
+					</div>
+				</div>
+
+				<div class="squere five">
+					<div class="info">
+						<h3>Friends and family call me Veljko, so feel free to do it to :)</h3>
+					</div>
+				</div>
+
+				<div class="squere six">
+					<div class="info">
+						<h3>Just a Simba, crazy dog...</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+				<div class="sec html">
+					<img src="img\html5.png" alt="html5 icon">
+					<h3>html 5</h3>
+				</div>
+
+				<div class="sec css">
+					<img src="img\css3.png" alt="css3 icon">
+					<h3>css 3</h3>
+				</div>
+
+				<div class="sec js">
+					<img src="img\javaScript.png" alt="javaScript icon">
+					<h3>Java Script</h3>
+				</div>
+
+				<div class="sec jquery">
+					<img src="img\jquery.png" alt="jquery icon">
+					<h3>jQuery</h3>
+				</div>
+
+				<div class="sec boot">
+					<img src="img\boot.png" alt="Bootstrap icon">
+					<h3>Bootstrap</h3>
+				</div>
+
+				<div class="sec sass">
+					<img src="img\sass.png" alt="sass icon">
+					<h3>Sass</h3>
+				</div>
+
+				<div class="sec ai">
+					<img src="img\ai.png" alt="Illustrator icon">
+					<h3>Illustrator</h3>
+				</div>
+
+				<div class="sec ps">
+					<img src="img\ps.png" alt="Photoshop icon">
+					<h3>Photoshop</h3>
+				</div>
+		</section>
+
+		<section id="myWork">
+
+			<div class="myWebPages">
+				<a href="https://veljko85.github.io/myCinema/index.html" target="blank">
+					<img src="img\marvelCinema.jpg" alt="Marvel Cinema web-site icon">
 				</a>
 			</div>
-		</li>
-	
-	</ul>
-</nav>
+			<div class="myWebPages">
+				<a href="https://veljko85.github.io/Nice-Travel/" target="blank">
+					<img src="img\nice-travel.jpg" alt="Nice-Travel web-site icon">
+				</a>
+			</div>
+				<div class="myWebPages">
+				<a href="https://veljko85.github.io/NiceTravel2/" target="blank">
+					<img src="img\nicetravel2.jpg" alt="Nice-Travel 2 web-site icon">
+				</a>
+			</div>
+				<div class="myWebPages">
+				<a href="https://veljko85.github.io/LFC_FAN_PAGE/" target="blank">
+					<img src="img\lfcfanpage.jpg" alt="LFC Fan Page web-site icon">
+				</a>
+			</div>
+			<div class="myWebPages">
+				<a href="https://veljko85.github.io/howoldareyou/" target="blank">
+					<img src="img\howoldareyou.jpg" alt="How Old Are You? web-site icon">
+				</a>
+			</div>
+			<div class="myWebPages">
+				<a href="https://veljko85.github.io/Choose-car/" target="blank">
+					<img src="img\chooseCar.jpg" alt="Choose car web-site icon">
+				</a>
+			</div>
 
-	<h3 class="hiring text">Hiring</h3>
-	<h3 class="question text">?</h3>
-	<h3 class="quest text">?</h3>
-	<a href="#contact" data-scroll>
-		<h3 class="cont text">Contact</h3>
-		<h3 class="me text">me</h3>
-	</a>
-</section>
+		</section>
 
-<section id="about">
-	<div class="abo">
-		<div class="squere one">
-			<h3 class="info">I love to travel, meet new and interesting people, learn new languages and cultures.</h3>
-		</div>
+		<section id="contact">
+			
+			<h1>Contact</h1>
+			<p>If you are interested to hire me, please contact me vie e-mail</p>
+			<h2>veljko85varvarin@hotmail.com</h2>
+			<a href="https://github.com/veljko85" target="blank">
+				<i id="git" class="fa fa-github" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/velibor-markovic-431378144/" target="blank">
+				<i id="link" class="fa fa-linkedin-square" aria-hidden="true"></i>
+			</a>
+			<br>
+			<a href="#home" data-scroll>
+				<i id="topButton" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+			</a>
 
-		<div class="squere two">
-			<h3 class="main-info">I am Velibor Marković, self motivated, self taught Front-end Web developer (if i can call myself that way yet). I can't spend a day without coding, learnig new things and developing my self in that direction. They say that if you find what you love to do and make a living from it, you are truly happy person. I'm on half way from it...</h3>
-		</div>
-		
-		<div class="squere three">
-			<h3 class="info">I have a Bachelor degree in Internatioal Business Administration, I am fluent in English, know a little bit of Spanish and German.</h3>
-		</div>
-
-		<div class="squere four">
-			<h3 class="info">I am highly motivated person that never give up, have good communicational skills, self aware, never hesitate to ask and consult.</h3>	
-		</div>
-
-		<div class="squere five">
-			<div class="info">
-				
-				<article>Friends and family call me Veljko, so feel free to do it to :)</article>
-				
-			</div> 
-		</div>
-
-		<div class="squere six">
-			<h3 class="info">Just a Simba, crazy dog...</h3>
-		</div>
-	</div>
-</section>
-
-<section id="skills">
-	<div class="skillsGroup">
-		<div class="sec html">
-			<img src="skillIcons\html5.png" alt="html5 icon">
-			<h3>html 5</h3>
-		</div>
-
-		<div class="sec css">
-			<img src="skillIcons\css3.png" alt="css3 icon">
-			<h3>css 3</h3>
-		</div>
-
-		<div class="sec js">
-			<img src="skillIcons\javaScript.png" alt="javaScript icon">
-			<h3>Java Script</h3>
-		</div>
-
-		<div class="sec jquery">
-			<img src="skillIcons\jquery.png" alt="jquery icon">
-			<h3>jQuery</h3>
-		</div>
-
-		<div class="sec boot">
-			<img src="skillIcons\boot.png" alt="Bootstrap icon">
-			<h3>Bootstrap</h3>
-		</div>
-
-		<div class="sec sass">
-			<img src="skillIcons\sass.png" alt="sass icon">
-			<h3>Sass</h3>
-		</div>
-
-		<div class="sec ai">
-			<img src="skillIcons\ai.png" alt="Illustrator icon">
-			<h3>Illustrator</h3>
-		</div>
-
-		<div class="sec ps">
-			<img src="skillIcons\ps.png" alt="Photoshop icon">
-			<h3>Photoshop</h3>
-		</div>
-	</div>
-</section>
-
-<section id="myWork">
-
-	<div class="myWebPages">
-		<a href="https://veljko85.github.io/myCinema/index.html" target="blank">
-			<img src="mywork\marvelCinema.jpg" alt="Marvel Cinema web-site icon">
-		</a>
-	</div>
-	<div class="myWebPages">
-		<a href="https://veljko85.github.io/Nice-Travel/" target="blank">
-			<img src="mywork\nice-travel.jpg" alt="Nice-Travel web-site icon">
-		</a>
-	</div>
-		<div class="myWebPages">
-		<a href="https://veljko85.github.io/NiceTravel2/" target="blank">
-			<img src="mywork\nicetravel2.jpg" alt="Nice-Travel 2 web-site icon">
-		</a>
-	</div>
-		<div class="myWebPages">
-		<a href="https://veljko85.github.io/LFC_FAN_PAGE/" target="blank">
-			<img src="mywork\lfcfanpage.jpg" alt="LFC Fan Page web-site icon">
-		</a>
-	</div>
-	<div class="myWebPages">
-		<a href="https://veljko85.github.io/howoldareyou/" target="blank">
-			<img src="mywork\howoldareyou.jpg" alt="How Old Are You? web-site icon">
-		</a>
-	</div>
-	<div class="myWebPages">
-		<a href="https://veljko85.github.io/Choose-car/" target="blank">
-			<img src="mywork\chooseCar.jpg" alt="Choose car web-site icon">
-		</a>
-	</div>
-
-</section>
-
-<section id="contact">
-	
-	<h1>Contact</h1>
-	<p>If you are interested to hire me, please contact me vie e-mail</p>
-	<h2>veljko85varvarin@hotmail.com</h2>
-	<a href="https://github.com/veljko85" target="blank">
-		<i id="git" class="fa fa-github" aria-hidden="true"></i>
-	</a>
-	<a href="https://www.linkedin.com/in/velibor-markovic-431378144/" target="blank">
-		<i id="link" class="fa fa-linkedin-square" aria-hidden="true"></i>
-	</a>
-
-	<a href="#home" data-scroll>
-		<i id="topButton" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
-	</a>
-
-</section>
+		</section>
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="js/jquery.scroller.min.js"></script>
-<script src="js/main.js"></script> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/jquery.scroller.min.js"></script>
+		<script src="js/main.js"></script> 
 
-</body>
-</html>
+		</body>
+	</html>
